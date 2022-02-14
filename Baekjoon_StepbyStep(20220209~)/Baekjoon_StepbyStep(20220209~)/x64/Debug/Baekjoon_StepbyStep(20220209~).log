@@ -1,3 +1,10 @@
 ﻿  소스.c
-C:\Users\Administrator\Documents\GitHub\C_CPP_Programming\Baekjoon_StepbyStep(20220209~)\Baekjoon_StepbyStep(20220209~)\소스.c(16): warning C4716: 'swap': 값을 반환해야 합니다.
-  Baekjoon_StepbyStep(20220209~).vcxproj -> C:\Users\Administrator\Documents\GitHub\C_CPP_Programming\Baekjoon_StepbyStep(20220209~)\x64\Debug\Baekjoon_StepbyStep(20220209~).exe
+C:\Users\Administrator\Documents\GitHub\C_CPP_Programming\Baekjoon_StepbyStep(20220209~)\Baekjoon_StepbyStep(20220209~)\소스.c(141,15): error C2371: 'calculate': 재정의. 기본 형식이 다릅니다.
+C:\Users\Administrator\Documents\GitHub\C_CPP_Programming\Baekjoon_StepbyStep(20220209~)\Baekjoon_StepbyStep(20220209~)\소스.c(121): message : 'calculate' 선언을 참조하십시오.
+C:\Users\Administrator\Documents\GitHub\C_CPP_Programming\Baekjoon_StepbyStep(20220209~)\Baekjoon_StepbyStep(20220209~)\소스.c(141,39): error C2079: 'calculate'은(는) 정의되지 않은 struct 'calc_t'을(를) 사용합니다.
+C:\Users\Administrator\Documents\GitHub\C_CPP_Programming\Baekjoon_StepbyStep(20220209~)\Baekjoon_StepbyStep(20220209~)\소스.c(142,16): error C2079: 'tmp'은(는) 정의되지 않은 struct 'calc_t'을(를) 사용합니다.
+C:\Users\Administrator\Documents\GitHub\C_CPP_Programming\Baekjoon_StepbyStep(20220209~)\Baekjoon_StepbyStep(20220209~)\소스.c(144,6): error C2224: '.add' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\Administrator\Documents\GitHub\C_CPP_Programming\Baekjoon_StepbyStep(20220209~)\Baekjoon_StepbyStep(20220209~)\소스.c(145,6): error C2224: '.sub' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\Administrator\Documents\GitHub\C_CPP_Programming\Baekjoon_StepbyStep(20220209~)\Baekjoon_StepbyStep(20220209~)\소스.c(146,6): error C2224: '.mul' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\Administrator\Documents\GitHub\C_CPP_Programming\Baekjoon_StepbyStep(20220209~)\Baekjoon_StepbyStep(20220209~)\소스.c(147,6): error C2224: '.div' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\Administrator\Documents\GitHub\C_CPP_Programming\Baekjoon_StepbyStep(20220209~)\Baekjoon_StepbyStep(20220209~)\소스.c(149,12): error C2440: 'return': 'int'에서 'calc_t'(으)로 변환할 수 없습니다.
